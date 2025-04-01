@@ -1,0 +1,78 @@
+.logo {
+    width: 80px;
+    height: 80px;
+}
+
+.navbar-text {
+    font-size: 1.1rem;
+    color: #000000;  
+}
+
+.header {
+    position: relative;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    z-index: -1
+  }
+
+  .bg_header {
+    background: linear-gradient(to right, 
+        #350C40 50%, 
+        #7A2D71 50%, /* Cor intermediária para suavizar */
+        #F2A900 100%);
+    z-index: 0;
+    opacity: 0.9;
+}
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+  }
+  
+  .video_hero {
+    width: 100%;
+    height: 100%;
+    opacity: 0.75;
+    object-fit: cover;
+  }
+
+  .hero {
+    z-index: 1;;
+  }
+
+  .text-container{
+    width: 50%;
+  }
+
+  .btn-hero{
+    justify-content: start;
+    align-items: start;
+    }
+
+  @media (max-width: 728px) {
+    .text-container{
+        width: 100%;
+        text-align: center;
+    }
+  }
+  @media (max-width: 900px) {
+    .bg_header {
+        background: linear-gradient(to right, 
+            #350C40 10%, 
+            #7A2D71 50%, /* Cor intermediária para suavizar */
+            #F2A900 100%);
+        z-index: 0;
+        opacity: 0.9;
+    }
+    .btn-hero{
+        justify-content: center;
+        align-items: center;
+    }
+  }
