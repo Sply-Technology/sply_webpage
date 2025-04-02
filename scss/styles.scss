@@ -1,3 +1,4 @@
+//Estilos navbar e header
 .logo {
     width: 80px;
     height: 80px;
@@ -75,4 +76,15 @@
         justify-content: center;
         align-items: center;
     }
+  }
+
+  //Estilos section 1
+
+  .bg-section-1{
+    background: linear-gradient( 
+        #350C40 15%, 
+        #7A2D71 50%, /* Cor intermediária para suavizar */
+        #F2A900 100%);
+    z-index: 0;
+    opacity: 0.9;
   }

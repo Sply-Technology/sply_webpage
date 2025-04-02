@@ -70,3 +70,8 @@
     align-items: center;
   }
 }
+.bg-section-1 {
+  background: linear-gradient(#350C40 15%, #7A2D71 50%, #F2A900 100%);
+  z-index: 0;
+  opacity: 0.9;
+}
