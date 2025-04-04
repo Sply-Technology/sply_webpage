@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .logo {
   width: 80px;
   height: 80px;
@@ -69,4 +70,42 @@
     justify-content: center;
     align-items: center;
   }
+}
+.custom-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+.custom-list li {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 10px;
+}
+.custom-list li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #000;
+  font-size: 1.2em;
+}
+
+.equal-btn {
+  width: 32%;
+  justify-content: center;
+  align-items: center;
+}
+.equal-btn a {
+  text-decoration: none;
+  color: #000;
+}
+
+.price-badge {
+  background-color: #002147;
+  border-radius: 5px;
+}
+.price-badge a {
+  text-decoration: none;
+  color: #fff;
+}
+.price-badge:hover {
+  background-color: #002958;
 }
