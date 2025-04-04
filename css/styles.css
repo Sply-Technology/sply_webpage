@@ -109,3 +109,24 @@
 .price-badge:hover {
   background-color: #002958;
 }
+
+.bg-section-1 {
+  background: linear-gradient(#350C40 15%, #7A2D71 50%, #F2A900 100%);
+  z-index: 0;
+  opacity: 0.9;
+}
+
+.text-rotate {
+  display: inline-block;
+  transform: rotate(315deg);
+  position: relative;
+}
+
+.custom-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  list-style-type: disc;
+  background-color: transparent;
+  line-height: 1.5rem;
+}
